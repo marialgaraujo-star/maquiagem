@@ -15,5 +15,31 @@ CSS3-Estilizão e adaptação para diferentes telas
 JavaScript-Interatividade, validação de formulários e cálculos.
 
 -*Funcionalidades*-
+
 -Apresentação do universo da maquiagem.
--Seção com diferente estilos de maquiagem
+-Seção com diferente estilos de maquiagem.
+-Apresentação dos produtos essesenciais.
+-Dicas de beleza e maquiagem.
+-Calculadora de orçamento para produtos de maquiagem.
+-Validação de dados inseridos no formulário.
+-Exibição de mensgens de erro e resultados.
+
+-*Identidade visual*-
+
+O site utiliza uma identidade visual delicada e feminina, com predominância de tons rosa claro, branco e cores suaves.
+
+-*Responsividade*-
+
+O projeto será desenvolvido para funcionar em computadores, tablets e celulares, adaptando seue conteúdo às diferentes dimenções na tela.
+
+-*Créditos e fontes*-
+
+As imagens e demais recursos utilizados serã identificados conforme suas respectivas fontes e licenças de utilização.
+
+-*Desenvolvimento*-
+
+Projeto acadêmico individual.
+
+*Nome do projeto:*  Beauty Universe
+*Tecnologias:* HTML5, CSS3 e Javascript
+*Ano:* 2026
