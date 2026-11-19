@@ -5,4 +5,5 @@ O Beauty Universe é um site desenvolvido com o objetivo de apresentar o univers
 O projeto busca proporcionar uma experiência visual agradável, deliada e intuitiva, utilizando uma identidade visual de tons rosa claro e explorar universos diferentes da maquiagm.
 
 -*Objetivo*-
-Desenvolvr uma página web utilizando HTML, CSS e javaScript, aplicando coneitos de estruturação, etilização, responsividade, interatividade e validação de dados.
+
+Desenvolver uma página web utilizando HTML, CSS e javaScript, aplicando coneitos de estruturação, etilização, responsividade, interatividade e validação de dados.
