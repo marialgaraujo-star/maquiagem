@@ -1,11 +1,257 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquiagem</title>
+
+    <meta name="description" content="Beauty Universe: descubra estilos, produtos e dicas do universo da maquiagem.">
+
+    <title>Beauty Universe | Universo da Maquiagem</title>
+
+    <!-- Conexão com o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">Beauty Universe</a>
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#maquiagens">Maquiagens</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section id="inicio" class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <p class="destaque">SEU UNIVERSO DE BELEZA</p>
+
+                <h1>Descubra a beleza de ser você!</h1>
+
+                <p>
+                    A maquiagem é uma forma de expressão, criatividade
+                    e autoestima. Explore novas possibilidades e
+                    descubra o seu próprio estilo.
+                </p>
+
+                <a href="#maquiagens" class="botao">
+                    Explore o universo
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ESTILOS DE MAQUIAGEM -->
+        <section id="maquiagens" class="secao">
+
+            <h2>Explore os estilos</h2>
+
+            <p class="descricao">
+                Cada maquiagem tem sua beleza.
+                Encontre o estilo que combina com você!
+            </p>
+
+            <div class="container-cards">
+
+                <article class="card">
+                    <h3>Maquiagem Natural</h3>
+                    <p>
+                        Um visual leve e delicado,
+                        ideal para o dia a dia.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Maquiagem Social</h3>
+                    <p>
+                        Elegância e sofisticação
+                        para ocasiões especiais.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Maquiagem Glam</h3>
+                    <p>
+                        Brilho, cores e personalidade
+                        para destacar sua beleza.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PRODUTOS -->
+        <section id="produtos" class="secao">
+
+            <h2>Produtos essenciais</h2>
+
+            <p class="descricao">
+                Conheça alguns produtos que fazem
+                parte de uma nécessaire de maquiagem.
+            </p>
+
+            <ul class="lista-produtos">
+
+                <li>Base</li>
+                <li>Corretivo</li>
+                <li>Pó facial</li>
+                <li>Blush</li>
+                <li>Máscara de cílios</li>
+                <li>Batom</li>
+                <li>Iluminador</li>
+
+            </ul>
+
+        </section>
+
+        <!-- DICAS -->
+        <section id="dicas" class="secao">
+
+            <h2>Dicas de beleza</h2>
+
+            <div class="dicas-conteudo">
+
+                <article>
+                    <h3>Prepare sua pele</h3>
+                    <p>
+                        Limpe e hidrate a pele antes de começar
+                        a maquiagem.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Escolha seus produtos</h3>
+                    <p>
+                        Considere suas preferências e as
+                        características da sua pele.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Remova a maquiagem</h3>
+                    <p>
+                        Retire os produtos antes de dormir
+                        para manter sua rotina de cuidados.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CALCULADORA -->
+        <section id="calculadora" class="secao">
+
+            <h2>Monte sua nécessaire!</h2>
+
+            <p class="descricao">
+                Descubra quanto você precisa investir
+                para completar sua coleção de maquiagem.
+            </p>
+
+            <form id="formulario-calculadora">
+
+                <div class="campo">
+                    <label for="quantidade">Quantos produtos deseja ter?</label>
+
+                    <input
+                        type="number"
+                        id="quantidade"
+                        name="quantidade"
+                        min="1"
+                        max="100"
+                        step="1"
+                        placeholder="Ex: 10"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="possui">Quantos produtos você já possui?</label>
+
+                    <input
+                        type="number"
+                        id="possui"
+                        name="possui"
+                        min="0"
+                        max="100"
+                        step="1"
+                        placeholder="Ex: 4"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="preco">Preço médio de cada produto (R$)</label>
+
+                    <input
+                        type="number"
+                        id="preco"
+                        name="preco"
+                        min="0.01"
+                        step="0.01"
+                        placeholder="Ex: 35.00"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="botao">
+                    Calcular orçamento
+                </button>
+
+                <!-- Mensagens e resultados do JavaScript -->
+                <div
+                    id="resultado"
+                    role="status"
+                    aria-live="polite"
+                ></div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <h2>Beauty Universe</h2>
+
+        <p>
+            Sua beleza, suas cores, seu universo!
+        </p>
+
+        <p>
+            &copy; 2026 Beauty Universe.
+            Projeto desenvolvido para fins educacionais.
+        </p>
+
+    </footer>
+
+    <!-- Conexão com o JavaScript -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
