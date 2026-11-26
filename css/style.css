@@ -1,8 +1,8 @@
 
-/* ==========================================
+/* 
    BEAUTY UNIVERSE
    Estilo visual: rosa claro e delicado
-   ========================================== */
+    */
 
 
 /* 1. CONFIGURAÇÕES GERAIS */
@@ -369,6 +369,25 @@ body {
         padding: 10px 17px;
     }
 
+
+
+}
+
+.fotos {
+  width: 400px;               /* Largura igual para todas */
+  height: 500px;              /* Altura igual para todas */
+  object-fit: cover;          /* Preenche o espaço sem esticar/distorcer a foto */
+  border-radius: 12px;        /* Borda arredondada */
+  border: 3px solid #f8f8f8;  /* Contorno (espessura, estilo e cor) */
+  box-sizing: border-box;     /* Garante que o contorno não altere o tamanho final */
+}
+
+.galeria {
+ width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 
